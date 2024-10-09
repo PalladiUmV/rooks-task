@@ -1,0 +1,33 @@
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.name {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.link {
+  color: #4b51ef;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
